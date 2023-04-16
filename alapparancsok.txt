@@ -1,8 +1,11 @@
-install:
+1. install:
 
-npm install typescript --save-dev
+    npm install typescript --save-dev
 
-fordítás:
+2. fordítás:
 
-npx tsc fajnev.ts
+    npx tsc fajnev.ts
 
+3. Leforditott js futtatas terminalban:
+
+    node fajnev.js
