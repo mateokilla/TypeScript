@@ -1,0 +1,8 @@
+install:
+
+npm install typescript --save-dev
+
+fordítás:
+
+npx tsc fajnev.ts
+

@@ -1,2 +1,0 @@
-const NAME: string = 'Mark';
-
