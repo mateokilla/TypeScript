@@ -1,27 +1,28 @@
 // String Variable With Explicit Annotation
 let movieTitle: string = "Amadeus";
 movieTitle = "Arrival";
-movieTitle = 9; //This results in an error!
+//movieTitle = 9; //This results in an error!
 movieTitle.toUpperCase();
 
 // Number Variable with explicit annotation
 let numCatLives: number = 9;
 numCatLives += 1;
+//@ts-ignore
 numCatLives = "zero"; //Error!
 
 // Explicitly typed boolean variable:
 let gameOver: boolean = false;
 gameOver = true;
-gameOver = "true"; //error!!
+//gameOver = "true"; //error!!
 
 // Type Inference
 let tvShow = "Olive Kitteridge";
 tvShow = "The Other Two";
-tvShow = false;
+//tvShow = false;
 
 let isFunny = false;
 isFunny = true;
-isFunny = "asd";
+//isFunny = "asd";
 
 // the any type
 let thing: any = "hello"; //This is not a great idea!
