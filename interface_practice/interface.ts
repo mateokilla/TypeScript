@@ -9,3 +9,5 @@ var user_1: User = {
 };
 
 console.log(user_1.id, user_1.name);
+
+
