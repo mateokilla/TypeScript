@@ -45,3 +45,16 @@ function subtractProductAndSum(n) {
     return eredmeny;
 }
 console.log(subtractProductAndSum(234));
+//2591. Distribute Money to Maximum Children
+/*You are given an integer money denoting the amount of money (in dollars) that you have and another integer children denoting the number of children that you must distribute the money to.
+
+You have to distribute the money according to the following rules:
+
+1. All money must be distributed.
+2. Everyone must receive at least 1 dollar.
+3. Nobody receives 4 dollars.
+Return the maximum number of children who may receive exactly 8 dollars if you distribute the money according to the aforementioned rules. If there is no way to distribute the money, return -1.*/
+function distMoney(money, children) {
+    var numberOf8$Recieves = 0;
+    return numberOf8$Recieves;
+}
