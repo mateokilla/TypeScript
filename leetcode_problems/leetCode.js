@@ -20,3 +20,15 @@ function numIdenticalPairs(nums) {
     return joParokSzama;
 }
 console.log(numIdenticalPairs([1, 1, 1, 1]));
+//2413. Smallest Even Multiple
+function smallestEvenMultiple(n) {
+    var legkisebbOszto = 0;
+    for (var i = 1500; i > 1; i--) {
+        if (i % n == 0 && i % 2 == 0) {
+            legkisebbOszto = i;
+        }
+    }
+    return legkisebbOszto;
+}
+;
+console.log(smallestEvenMultiple(5));

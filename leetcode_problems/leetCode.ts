@@ -23,3 +23,16 @@ function numIdenticalPairs(nums: number[]): number {
 }
 
 console.log(numIdenticalPairs([1, 1, 1, 1]));
+
+
+//2413. Smallest Even Multiple
+function smallestEvenMultiple(n: number): number {
+  let legkisebbOszto: number = 0;
+  for(let i: number = 1500;i>1;i--){
+     if(i%n==0 && i%2==0){
+         legkisebbOszto=i
+     }
+  }
+  return legkisebbOszto
+};
+console.log(smallestEvenMultiple(5))
