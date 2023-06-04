@@ -30,5 +30,18 @@ function smallestEvenMultiple(n) {
     }
     return legkisebbOszto;
 }
-;
-console.log(smallestEvenMultiple(5));
+console.log(smallestEvenMultiple(77));
+//1281. Subtract the Product and Sum of Digits of an Integer
+function subtractProductAndSum(n) {
+    var eredmeny = 0;
+    var productOfDigits = 1;
+    var sumOfDigits = 0;
+    var nToString = String(n);
+    for (var i = 0; i < nToString.length; i++) {
+        productOfDigits *= Number(nToString[i]);
+        sumOfDigits += Number(nToString[i]);
+    }
+    eredmeny = productOfDigits - sumOfDigits;
+    return eredmeny;
+}
+console.log(subtractProductAndSum(234));
